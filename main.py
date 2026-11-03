@@ -40,9 +40,9 @@ status_falta = presenca(aluno['frequencia'])
 print(f"aluno: {aluno['nome']}, nota: {nota}, Status: {status_nota}, frequencia: {status_falta}")
 
 if status_nota == 'Aprovado' and status_falta == 'presença ok':
-        'aprovado'.append(aluno['nome'])
+        aprovado.append(aluno['nome'])
 else:
-       'reprovado'.append(aluno['nome'])
+       reprovado.append(aluno['nome'])
 
-print(f"\nLista de Aprovados: {'aprovado'}")
-print(f"Lista de Reprovados: {'reprovado'}")
+print(f"\nLista de Aprovados: {aprovado}")
+print(f"Lista de Reprovados: {reprovado}")
